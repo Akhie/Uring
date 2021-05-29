@@ -21,12 +21,12 @@ function RightMenu(props) {
 
   if (user.userData && !user.userData.isAuth) {
     return (
-      <Menu mode={props.mode}>
+      <Menu style={{background:"black", color:"white"}} mode={props.mode}>
         <Menu.Item key="mail">
-          <a href="/login">Signin</a>
+          <a style={{ color:"white", textDecoration:"none"}} href="/login">Signin</a>
         </Menu.Item>
         <Menu.Item key="app">
-          <a href="/register">Signup</a>
+          <a style={{ color:"white", textDecoration:"none"}} href="/register">Signup</a>
         </Menu.Item>
       </Menu>
     )
