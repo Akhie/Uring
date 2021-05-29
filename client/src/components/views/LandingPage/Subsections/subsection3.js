@@ -1,17 +1,38 @@
-  
 import React from 'react';
+import { Container, Row, Col, Button, ButtonGroup } from "reactstrap";
+import "../style.css"
+
 function SubSec3(){
-    return <div>
-          <div class="row main">
-          <div class="col-lg-6 center">
-            <p class="explore">Our catch phrase and moto here probably of two lines.....</p>
-            <a class="soci" href="#"><button type="button" class="soc btn btn-success btn-lg button">Get Started</button></a>
-            <a class="soci" href="#"><button type="button" class="soc btn btn-dark btn-lg button">Download App</button></a>
-          </div>
-          <div class="col-lg-6 center">
-            <img class="pisa" src={pic1} alt=""></img>
-          </div>
-          </div>
-        </div>
+    return <div class="suba">
+
+<p class="explore">Our catch phrase and moto here probably of two lines.....</p>
+<Row className="rowa">
+  <Col>
+      <p>hell 1</p>
+  </Col>
+  <Col className="highcola">
+    hell 2
+  </Col>
+</Row>
+
+<Row className="rowa">
+  <Col className="highcola">
+    eighp3
+  </Col>
+  <Col >
+      efofpho;of4
+  </Col>
+</Row>
+
+<Row className="rowa">
+  <Col>
+    ewf;ho 5
+  </Col>
+  <Col className="highcola">
+      efifh 6
+  </Col>
+</Row>
+
+    </div>
 }
 export default SubSec3;

@@ -35,3 +35,36 @@ background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  mar
     background-position: center;
     background-size: cover;
   }
+
+
+/* subsection3 classes - by aman */
+
+.suba{
+  width: 100%;
+    max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: rgb(0, 0, 0);
+/* background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  margin: 0; */
+    background-position: center;
+    background-size: cover;
+}
+
+.rowa{
+  background-color: rgb(255, 255, 255);
+  /* align-self: center; */
+  margin-left: 5%;
+  /* padding: 10% 10% 10% 17%; */
+  height: 30rem;
+  width:80%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.highcola{
+  position: relative;
+  margin-top: 0.5rem;
+  margin: 0.5rem;
+  background-color: rgb(218, 214, 214);
+}
