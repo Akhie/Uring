@@ -10,17 +10,18 @@
     padding: 10% 10% 10% 17%;
   }
   .TopBut1{
-   margin-left: 20%;
+   margin-left: 10%;
   }
   .TopBut2{
-    margin-right: 25%;
+    margin-right: 15%;
    }
   .pisa{
     width: 112%;
     margin-top: 21%;
   }
   .soci{
-    display: block;
+    /* display: block; */
+    width: 120%;
     margin-bottom: 20px;
   }
   .top{
@@ -29,11 +30,36 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: rgb(78,78,78);
-background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  margin: 0;
-    background-position: center;
+  background-color: black;
+   background-position: center;
     background-size: cover;
   }
+  .top2{
+    width: 100%;
+    max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  }
+  .explore2{
+    
+    font-size: 150%;
+    margin-top: 4%;
+    padding: 0% 0% 0% 17%;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+  }
+  .explore3{
+    font-size: 120%;
+    padding: 0% 0% 0% 17%;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  .pisa2{
+    width: 45%;
+  }
+ 
 
 
 /* subsection3 classes - by aman */
