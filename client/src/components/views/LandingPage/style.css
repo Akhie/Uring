@@ -29,9 +29,8 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: rgb(78,78,78);
-background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  margin: 0;
-    background-position: center;
+  background-color: black;
+   background-position: center;
     background-size: cover;
   }
   .top2{
