@@ -1,5 +1,4 @@
 .explore{
-    
     font-size: 300%;
     padding: 10% 10% 10% 17%;
     text-align: left;
@@ -56,3 +55,49 @@ background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  mar
   .top2phone1{
     text-align: right;
   }
+
+
+.imgsize {
+    width: 250px;
+    height: 200px;
+    transition: transform .5s ease;
+}
+.imgsize:hover {
+    transform: scale(1.05);
+}
+
+.contactbutton {
+    display: inline-block;
+  border-radius: 30px;
+  background-color:white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.contactbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+.contactbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.contactbutton:hover span {
+  padding-right: 25px;
+}
+.contactbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
