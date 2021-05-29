@@ -36,6 +36,32 @@ background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  mar
   }
 
 
+/* subsection3 classes - by aman */
+
+.suba{
+  width: 100%;
+    max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+}
+
+.rowa{
+  background-color: rgb(255, 255, 255);
+  height: 35rem;
+  width:100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.highcola{
+  position: relative;
+  background-color: rgb(226, 226, 226);
+}
+
 .imgsize {
     width: 250px;
     height: 200px;
