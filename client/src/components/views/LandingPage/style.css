@@ -35,3 +35,24 @@ background: linear-gradient(15deg, rgba(78,78,78,1) 0%, rgba(7,8,0,1) 17%);  mar
     background-position: center;
     background-size: cover;
   }
+  .top2{
+    width: 100%;
+    max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  }
+  .explore2{
+    
+    font-size: 200%;
+    padding: 10% 10% 10% 17%;
+    text-align: left;
+      font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  }
+  .pisa2{
+    width: 45%;
+  }
+  .top2phone1{
+    text-align: right;
+  }
