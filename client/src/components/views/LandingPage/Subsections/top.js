@@ -1,17 +1,28 @@
 import React from 'react';
-import pic1 from "../Images/labour.png";
+import pic1 from "../Images/pic4.png";
+import { Container, Row, Col, Button, ButtonGroup } from "reactstrap";
+import "../style.css"
+
 function Top(){
-    return <div>
-        <div class="row main">
-<div class="col-lg-6 center">
+    return <div class="top">
+
+<Row>
+<Col lg="6" sm="12">
   <p class="explore">Our catch phrase and moto here probably of two lines.....</p>
-   <a class="soci" href="#"><button type="button" class="soc btn btn-success btn-lg button">Get Started</button></a>
-    <a class="soci" href="#"><button type="button" class="soc btn btn-dark btn-lg button">Download App</button></a>
-</div>
-<div class="col-lg-6 center">
+  <Row className="TopBut">
+  <Col className="TopBut1">
+   <a class="soci" href="#"><Button color="primary" >Download App</Button></a>
+   </Col>
+   <Col className="TopBut2">
+    <a class="soci" href="#"><Button color="danger">Find Service</Button></a>
+    </Col>
+    </Row>
+</Col>
+<Col>
   <img class="pisa" src={pic1} alt=""></img>
-</div>
-    </div>
+</Col>
+</Row>
+
     </div>
 }
 export default Top;
