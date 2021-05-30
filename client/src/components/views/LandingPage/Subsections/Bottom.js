@@ -12,7 +12,7 @@ import img6 from '../Images/6.jpeg';
 
 export default function Bottom() {
     return (
-        <div style={{backgroundColor:"black"}}>
+        <div style={{backgroundColor:"#1c1c1c"}}>
 
             <div style={{marginBottom:"50px", paddingTop:"100px"}}>
                 <h2 className='text-center text-white'>Services Available</h2>
