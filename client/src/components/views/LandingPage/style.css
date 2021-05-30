@@ -76,7 +76,7 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: rgb(0, 0, 0);
+  background: #1c1c1c;
     background-position: center;
     background-size: cover;
 }
