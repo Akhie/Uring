@@ -10,7 +10,7 @@ function Top(){
 <Col lg="6" sm="12">
   <p class="explore">Our catch phrase and moto here probably of two lines.....</p>
   <Row className="TopBut">
-  <Col className="TopBut1">
+  <Col  className="TopBut1">
    <a class="soci" href="#"><Button style={{background:"#ffffff",color:"black"}} size="lg">Download App</Button></a>
    </Col>
    <Col className="TopBut2">

@@ -8,7 +8,7 @@ function SubSec3(){
 <p class="explore">Our catch phrase and moto here probably of two lines.....</p>
 <div class="m-5">
 <Row className="rowa">
-  <Col>
+  <Col lg="6" sm="12">
       
   </Col>
   <Col className="highcola">
@@ -17,7 +17,7 @@ function SubSec3(){
 </Row>
 
 <Row className="rowa">
-  <Col className="highcola">
+  <Col lg="6" sm="12" className="highcola">
     
   </Col>
   <Col >
@@ -26,7 +26,7 @@ function SubSec3(){
 </Row>
 
 <Row className="rowa">
-  <Col>
+  <Col lg="6" sm="12">
     
   </Col>
   <Col className="highcola">
