@@ -5,7 +5,7 @@ const MenuItemGroup = Menu.ItemGroup;
 
 function LeftMenu(props) {
   return (
-    <Menu style={{background:"#202020", color:"white"}} mode={props.mode}>
+    <Menu style={{background:"#1c1c1c", color:"white"}} mode={props.mode}>
     <Menu.Item key="mail">
 
       <a style={{ color:"white", textDecoration:"none"}} href="/">Home</a>
