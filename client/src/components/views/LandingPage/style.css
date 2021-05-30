@@ -13,12 +13,13 @@
    margin-left: 10%;
   }
   .TopBut2{
-    margin-right: 15%;
+    margin-right: 11%;
    }
   .pisa{
     width: 112%;
     margin-top: 21%;
   }
+
   .soci{
     /* display: block; */
     width: 120%;
@@ -30,7 +31,7 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color: black;
+  background-color: rgb(32,32,32);
    background-position: center;
     background-size: cover;
   }
@@ -58,9 +59,14 @@
   }
   .pisa2{
     width: 45%;
+    transition: transform .5s ease;
   }
- 
-
+  .pisa2:hover {
+    transform: scale(1.05);
+}
+.phone1{
+  text-align: right;
+}
 
 /* subsection3 classes - by aman */
 
@@ -131,4 +137,38 @@
 .contactbutton:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+
+
+/*css for mobile site*/
+
+@media (max-width:1000px){
+  .explore{
+    font-size: 190%;
+  }
+  .TopBut{
+    padding: 0% 10% 0% 17%;
+  }
+  .TopBut1{
+   margin-left: 0%;
+   margin-bottom: 5%;
+  }
+  .TopBut2{
+    margin-right: 0%;
+   }
+   .explore2{
+    
+    font-size: 140%;
+    margin: auto;
+  }
+  .explore3{
+    font-size: 100%;
+    padding: 0% 10% 0% 17%;
+  }
+  .pisa{
+    width: 100%;
+    margin-top: 11%;
+  }
+  
 }
