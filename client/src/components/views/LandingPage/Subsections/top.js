@@ -1,10 +1,11 @@
 import React from 'react';
-import pic1 from "../Images/pic4.png";
+
 import { Container, Row, Col, Button, ButtonGroup } from "reactstrap";
 import "../style.css"
 
+
 function Top(){
-    return <div class="top">
+    return <div class="top" >
 
 <Row>
 <Col lg="6" sm="12">
@@ -19,7 +20,7 @@ function Top(){
     </Row>
 </Col>
 <Col>
-  <img class="pisa" src={pic1} alt=""></img>
+
 </Col>
 </Row>
 
