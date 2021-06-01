@@ -1,6 +1,4 @@
-import { faLifeRing, faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import { splitBsProps } from 'react-bootstrap/lib/utils/bootstrapUtils';
 import Form from "./form.js";
 
 function ContactPage() {
