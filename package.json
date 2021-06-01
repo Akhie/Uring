@@ -16,8 +16,12 @@
   "author": "Akhilesh Yadav",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
+    "bootstrap": "^4.6.0",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
@@ -25,6 +29,8 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
     "mongoose": "^5.4.20",
+    "react-bootstrap": "^0.32.4",
+    "react-fontawesome": "^1.7.1",
     "react-redux": "^5.0.7",
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0"
