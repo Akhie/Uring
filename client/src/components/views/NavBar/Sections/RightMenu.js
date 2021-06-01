@@ -32,9 +32,9 @@ function RightMenu(props) {
     )
   } else {
     return (
-      <Menu mode={props.mode}>
+      <Menu style={{background:"#1c1c1c", color:"white"}} mode={props.mode}>
         <Menu.Item key="logout">
-          <a onClick={logoutHandler}>Logout</a>
+          <a style={{ color:"white", textDecoration:"none"}} onClick={logoutHandler}>Logout</a>
         </Menu.Item>
       </Menu>
     )

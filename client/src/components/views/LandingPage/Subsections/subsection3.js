@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button, ButtonGroup } from "reactstrap";
 import "../style.css"
 
+
 function SubSec3(){
     return <div class="suba">
 
@@ -12,7 +13,7 @@ function SubSec3(){
       
   </Col>
   <Col className="highcola">
-    
+ 
   </Col>
 </Row>
 

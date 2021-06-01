@@ -1,29 +1,20 @@
-import React from 'react';
-
+import React,{useEffect} from 'react';
+import pic from '../Images/h1.png'
+import pic1 from '../Images/c1.png'
 import { Container, Row, Col, Button, ButtonGroup } from "reactstrap";
 import "../style.css"
-
+import {Helmet} from "react-helmet";
 
 function Top(){
-    return <div class="top" >
 
-<Row>
-<Col lg="6" sm="12">
+return <div class="top" >
+
   <p class="explore">Our catch phrase and moto here probably of two lines.....</p>
-  <Row className="TopBut">
-  <Col  className="TopBut1">
-   <a class="soci" href="#"><Button style={{background:"#ffffff",color:"black"}} size="lg">Download App</Button></a>
-   </Col>
-   <Col className="TopBut2">
-    <a class="soci" href="#"><Button style={{background:"#333333"}} size="lg">Find Service</Button></a>
-    </Col>
-    </Row>
-</Col>
-<Col>
+  
 
-</Col>
-</Row>
+</div>
 
-    </div>
+
+           
 }
 export default Top;
