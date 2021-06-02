@@ -1,6 +1,14 @@
 .explore{
     font-size: 200%;
-    padding: 8% 10% 10% 10%;
+    padding: 12% 10% 0% 10%;
+    text-align: left;
+    color: white;
+    text-align: center;
+    font-family: 'Gentium Book Basic', serif;
+  }
+  .exploresub{
+    font-size: 100%;
+    padding: 0% 10% 12% 10%;
     text-align: left;
     color: white;
     text-align: center;
@@ -9,15 +17,13 @@
   .top{
     text-align: center;
   }
-  .TopBut{
-    padding: 10% 10% 10% 17%;
+  .topicon{
+    width: 1.5em;
+    margin-top: 10%;
   }
-  .TopBut1{
-   margin-left: 0%;
+  .toplink{
+    text-decoration: none;
   }
-  .TopBut2{
-    margin-right: 11%;
-   }
   .pisa{
     width: 112%;
     margin-top: 6%;
@@ -44,8 +50,9 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: #1c1c1c;
-    background-position: center;
+  background-image: url(./Images/stars.jpg);
+  /* background: #1c1c1c; */
+    background-position: top;
     background-size: cover;
   }
   .top2{
