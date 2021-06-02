@@ -46,7 +46,7 @@ class Form extends React.Component {
               <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
           </div>
           <br></br>
-          <button type="submit" className="btn btn-primary" style={{backgroundColor: "black"}}>Submit</button>
+          <button type="submit" className="btn " style={{backgroundColor: "black", color:"white"}}>Submit</button>
         </form>
       </div>
     );

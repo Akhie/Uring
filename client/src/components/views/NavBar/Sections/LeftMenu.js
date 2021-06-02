@@ -1,11 +1,12 @@
 import React from 'react';
 import { Menu } from 'antd';
+import "./Navbar.css"
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
 function LeftMenu(props) {
   return (
-    <Menu style={{background:"#1c1c1c", color:"white"}} mode={props.mode}>
+    <Menu class="navcol" style={{background:"#080808", color:"white"}} mode={props.mode}>
     <Menu.Item key="mail">
 
       <a style={{ color:"white", textDecoration:"none"}} href="/">Home</a>

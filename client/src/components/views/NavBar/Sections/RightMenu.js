@@ -5,7 +5,7 @@ import axios from 'axios';
 import { USER_SERVER } from '../../../Config';
 import { withRouter } from 'react-router-dom';
 import { useSelector } from "react-redux";
-
+import "./Navbar.css"
 function RightMenu(props) {
   const user = useSelector(state => state.user)
 
@@ -21,7 +21,7 @@ function RightMenu(props) {
 
   if (user.userData && !user.userData.isAuth) {
     return (
-      <Menu style={{background:"#1c1c1c", color:"white"}} mode={props.mode}>
+      <Menu class="navcol" style={{background:"#080808"}} mode={props.mode}>
         <Menu.Item>
           <a style={{ color:"white", textDecoration:"none"}} href="/contacts">Contact Us</a>
         </Menu.Item>
@@ -35,9 +35,9 @@ function RightMenu(props) {
     )
   } else {
     return (
-      <Menu mode={props.mode}>
+      <Menu class="navcol" style={{background:"#080808"}} mode={props.mode}>
         <Menu.Item key="logout">
-          <a onClick={logoutHandler}>Logout</a>
+          <a style={{ color:"white", textDecoration:"none"}} onClick={logoutHandler}>Logout</a>
         </Menu.Item>
       </Menu>
     )

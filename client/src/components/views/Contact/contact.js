@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from "./form.js";
+import AddCon from "./form.js";
 
 function ContactPage() {
     return (
@@ -21,7 +21,7 @@ function ContactPage() {
                                 
                     </div>
                     <div className='col-md-6 p-5' >
-                        <Form></Form>
+                        <AddCon></AddCon>
                     </div>
                 </div>
             </div>
