@@ -14,12 +14,14 @@ class Form extends React.Component {
 
   handleSubmit(e){
     e.preventDefault();
+   
     axios.post('/api/contacts/addContact',this.state)
       .then((response)=>{
-        if (response.data.status === 'success') {
-          alert("Message Sent.");
+        console.log(response.data.success);
+        if (response.data.success) {
+          alert("Message Submitted.");
           this.resetForm()
-        } else if (response.data.status === 'fail') {
+        } else if (response.data.success) {
           alert("Message failed to send.")
         }
     })
