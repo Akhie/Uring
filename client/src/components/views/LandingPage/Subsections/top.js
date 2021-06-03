@@ -13,7 +13,7 @@ return <div class="top" >
   <p class="exploresub">Our catch phrase and moto here probably of two lines</p>
   </Row>
   <Row>
-    <div style={{width:"80%", margin:"auto"}}>
+    <div class="topbox topbox1" style={{width:"80%", background:"#080808", margin:"auto"}}>
     <Row>
       <Col>
       <a class="toplink" href="#">

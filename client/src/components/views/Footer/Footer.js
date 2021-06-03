@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='row' style={{backgroundColor:"#1c1c1c"}}>
+            <div className='row' style={{backgroundColor:"#080808"}}>
                 <div className='text-center text-white pt-3 pb-1'>
                     <p> © Services 2021  /  All Rights Reserved </p>
                 </div>

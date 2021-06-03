@@ -12,7 +12,7 @@ import img6 from '../Images/6.jpeg';
 
 export default function Bottom() {
     return (
-        <div style={{backgroundColor:"#1c1c1c"}}>
+        <div style={{backgroundColor:"#080808"}}>
 
             <div style={{marginBottom:"50px", paddingTop:"100px"}}>
                 <h2 className='text-center text-white'>Services Available</h2>
@@ -22,17 +22,17 @@ export default function Bottom() {
                 <div className='row'>
 
                     <div className='col-md-4 p-4'>
-                        <div class="card bg-dark text-white">
-                            <img src={img1} className="card-img imgsize" alt="..." />
+                        <div class="card botcard text-white">
+                            <img src={img6} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
                     <div className='col-md-4 p-4'>
-                        <div class="card bg-dark text-white">
-                            <img src={img2} className="card-img imgsize" alt="..." />
+                        <div class="card botcard text-white">
+                            <img src={img5} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
                     <div className='col-md-4 p-4'>
-                        <div class="card bg-dark text-white">
+                        <div class="card botcard text-white">
                             <img src={img3} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
@@ -42,18 +42,18 @@ export default function Bottom() {
                 <div className='row'>
 
                     <div className='col-md-4 p-4'>
-                        <div class="card bg-dark text-white">
+                        <div class="card botcard text-white">
                             <img src={img4} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
                     <div className='col-md-4 p-4'>
-                        <div class="card bg-dark text-white">
-                            <img src={img5} className="card-img imgsize" alt="..." />
+                        <div class="card botcard text-white">
+                            <img src={img2} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
                     <div className='col-md-4 p-4'>
-                        <div class="card bg-dark text-white">
-                            <img src={img6} className="card-img imgsize" alt="..." />
+                        <div class="card botcard text-white">
+                            <img src={img1} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
 
