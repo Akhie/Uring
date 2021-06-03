@@ -9,7 +9,7 @@ function Footer() {
             <div style={{ paddingTop:"70px", paddingBottom:"50px" }} className='container'>
                 <div className='row'>
                     <div className='col-md-6 p-5' >
-                            <h2>LOGO</h2>
+                            <h2 style={{fontFamily:"Pacifico , cursive", fontWeight:"bold"}}>URing</h2>
                             <p> From custom web design to content writing and search engine optimization (SEO), our range of creative digital services will help your business stand out online</p>
                     </div>
                     <div className='col-md-6 p-5'>
