@@ -21,7 +21,7 @@ class Form extends React.Component {
         if (response.data.success) {
           alert("Message Submitted.");
           this.resetForm()
-        } else if (response.data.success) {
+        } else {
           alert("Message failed to send.")
         }
     })
