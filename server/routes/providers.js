@@ -16,5 +16,15 @@ router.post("/addProvider", (req, res) => {
     })
 })
 
+router.post("/getProvider", (req, res) => {
+// console.log(req.body);
+    Provider.find({ "service": req.body.ser })
+        .exec((err, providers) => {
+            if(err) return res.status(400).send(err);
+            // console.log(providers);
+            res.status(200).json({ success: true, providers })
+        })
+
+});
 
 module.exports = router;

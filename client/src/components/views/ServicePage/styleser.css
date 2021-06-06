@@ -1,0 +1,21 @@
+.Litem{
+    text-align: center;
+}
+.Litems{
+    padding: 0.5rem;
+}
+.Leftsec{
+    background-color: #F8F8F8;
+}
+.rightf{
+    font-family: 'Gentium Book Basic', serif;
+}
+
+@media (max-width:1000px){
+    .Leftsec{
+        display: none;
+    }
+    .proimg{
+        width: 15%;
+    }
+}
