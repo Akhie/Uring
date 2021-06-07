@@ -1,5 +1,5 @@
 .explore{
-    font-size: 200%;
+    font-size: 300%;
     padding: 12% 10% 0% 10%;
     text-align: left;
     color: white;
@@ -194,7 +194,22 @@
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-
+  .modal-header {
+    background-color: white;
+    border-bottom: 0 none;
+    /* margin-left: 50%; */
+    align-items: center;
+  }
+  .modal-body {
+    border-top: 0 none;
+    border-bottom: 0 none;
+  }
+  .modal-footer {
+    border-top: 0 none;
+  }
+  .foor {
+    background-color: black;
+  }
 /*css for mobile site*/
 
 @media (max-width:1000px){
