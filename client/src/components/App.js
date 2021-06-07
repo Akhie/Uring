@@ -6,6 +6,7 @@ import LandingPage from "./views/LandingPage/LandingPage.js";
 import LoginPage from "./views/LoginPage/LoginPage.js";
 import RegisterPage from "./views/RegisterPage/RegisterPage.js";
 import ContactPage from "./views/Contact/contact.js";
+import AdminPage from "./views/Admin/Admin.js";
 import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer"
 import ServicePage from "./views/ServicePage/ServicePage"
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
           <Route exact path="/contacts" component={Auth(ContactPage, null)} />
           <Route exact path="/service/:type" component={Auth(ServicePage, null)} />
+          <Route exact path="/admin" component={Auth(AdminPage, true)} />
         </Switch>
       </div>
       <Footer />

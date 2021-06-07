@@ -8,7 +8,13 @@ const providerSchema = mongoose.Schema({
     contact:{
         type: Number,
     },
+    minCharge:{
+        type: Number,
+    },
     service:{
+        type: Array,
+    },
+    address:{
         type: String,
     },
     longitude:{
