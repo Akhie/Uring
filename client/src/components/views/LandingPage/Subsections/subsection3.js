@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, ButtonGroup } from "reactstrap";
 import "../style.css";
 import mid1 from '../Images/mid1.jpeg'
 import mid2 from '../Images/pro.png'
+import mid3 from '../Images/Logo.png'
 function SubSec3(){
     return <div class="suba">
 
@@ -37,14 +38,13 @@ function SubSec3(){
 
 <Row className="rowa">
 <Col md="6" sm="6" xs="12" data-aos="zoom-in-right" >
-  <p class="subp1">Find every kind of service near you.</p>
-      <h3 class="subp2">Services Near Me</h3>
-      <p class="subp3">We know sometimes finding a right guy near you for
-      even a basic work becomes a really difficult task we make that thing really easy.
-      Now getting details of service providers near you is just an click away.</p>
+  <p class="subp1">Making finding customers and services really easy.</p>
+      <h3 class="subp2">URing at your service</h3>
+      <p class="subp3">URing brings you a platform where finding information of all basic
+      service provider is now just a click away and that too without any charge.</p>
   </Col>
   <Col sm="6" data-aos="zoom-in-left">
-  <img class="subimg" src={mid1}></img>
+  <img class="subimg" style={{width:"75%", margin:"0", marginTop:"1.5rem", marginLeft:"2.5rem"}} src={mid3}></img>
   </Col>
 </Row>
 </div>
