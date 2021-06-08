@@ -9,9 +9,9 @@ function Top2(){
     <div class="topbox2" style={{width:"80%", background:"#080808", margin:"auto"}}>
     <Row>
       <Col md="2" xs="4">
-      <a class="toplink" href="#">
-      <img style={{width:"1.9em"}} class="topicon" src="https://cdn.pixabay.com/photo/2016/08/07/14/59/the-light-bulb-1576399_960_720.png"></img>
-        <p style={{color:"white"}}>Electrician</p></a>
+      <a href="./service/RO repair" class="toplink" href="#">
+      <img style={{width:"1.9em"}} class="topicon" src="https://cdn.pixabay.com/photo/2012/04/03/13/36/water-25169_960_720.png"></img>
+        <p style={{color:"white"}}>RO repair</p></a>
       </Col>
       <Col md="2" xs="4"> 
       <a class="toplink" href="#">

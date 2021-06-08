@@ -6,6 +6,9 @@ import LandingPage from "./views/LandingPage/LandingPage.js";
 import LoginPage from "./views/LoginPage/LoginPage.js";
 import RegisterPage from "./views/RegisterPage/RegisterPage.js";
 import ContactPage from "./views/Contact/contact.js";
+import AboutUsPage from "./views/Footer/Subsections/about-us.js";
+import PrivacyPage from "./views/Footer/Subsections/privacy.js";
+import TermsPage from "./views/Footer/Subsections/terms.js";
 import AdminPage from "./views/Admin/Admin.js";
 import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer"
@@ -24,6 +27,9 @@ function App() {
           <Route exact path="/login" component={Auth(LoginPage, false, false)} />
           <Route exact path="/register" component={Auth(RegisterPage, false, false)} />
           <Route exact path="/contacts" component={Auth(ContactPage, null, false)} />
+          <Route exact path="/about-us" component={Auth(AboutUsPage, null, false)} />
+          <Route exact path="/privacy" component={Auth(PrivacyPage, null, false)} />
+          <Route exact path="/terms" component={Auth(TermsPage, null, false)} />
           <Route exact path="/service/:type" component={Auth(ServicePage, null, false)} />
           <Route exact path="/admin" component={Auth(AdminPage, true, true)} />
         </Switch>

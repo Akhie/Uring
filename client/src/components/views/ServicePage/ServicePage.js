@@ -6,10 +6,11 @@ import "./styleser.css"
 function LandingPage() {
     return (
         <>
+        <div style={{background:"#F8F8F8", paddingTop:"1rem"}}>
         <div  style={{width:"80%",margin:"auto",marginTop:"2rem"}}>
           <Row>
           <Col md="3">
-          <div style={{background:""}} class="Leftsec">
+          <div class="Leftsec">
            <Left />
            </div>
            </Col>
@@ -17,6 +18,7 @@ function LandingPage() {
                <Right />
                </Col>
            </Row>
+           </div>
            </div>
         </>
     )
