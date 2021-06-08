@@ -197,7 +197,7 @@
 
 /*css for mobile site*/
 
-@media (max-width:1000px){
+@media (max-width:1200px){
   .explore{
     font-size: 190%;
   }

@@ -26,10 +26,10 @@ useEffect(() => {
 },)     
     const render=Providers.map((Pro, index) =>{
         return(
-            <div>
+            <div >
             <Row>
             <Col md="3" xs="3">
-                <img class="proimg" style={{width:"75%"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="Profile pics"></img>
+                <img class="proimg" style={{width:"75%", marginLeft:"1rem"}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="Profile pics"></img>
             </Col>
             <Col>
                 <h5 class="rightf">{Pro.name}</h5>
@@ -43,8 +43,8 @@ useEffect(() => {
         )
     })
     return (
-        <div>
-           <h4 class="rightf">{type} service near you.</h4>
+        <div class="Rsec">
+           <h4 style={{marginLeft:"1rem" , fontWeight:"bold"}} class="rightf"> {type} service near you.</h4>
            <br />
             {render}
             
