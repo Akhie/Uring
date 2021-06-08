@@ -1,26 +1,35 @@
 import React from 'react'
 import {Icon} from 'antd';
-
+{/* <div className='col-md-6 p-5' >
+                            <h2 style={{fontFamily:"Pacifico , cursive", fontWeight:"bold"}}>URing</h2>
+                            <p> All Rights Reserved</p>
+                    </div> */}
 function Footer() {
 
     return (
 
         <div>
-            <div style={{ paddingTop:"70px", paddingBottom:"50px" }} className='container'>
+            <div style={{ paddingTop:"70px", paddingBottom:"10px" }} className='container'>
                 <div className='row'>
-                    <div className='col-md-6 p-5' >
-                            <h2 style={{fontFamily:"Pacifico , cursive", fontWeight:"bold"}}>URing</h2>
-                            <p> From custom web design to content writing and search engine optimization (SEO), our range of creative digital services will help your business stand out online</p>
+                    <div className='col-md-3 p-1' >
+                            <h2 style={{fontFamily:"Pacifico , cursive", fontWeight:"bold"}}><a href="/" style={{textDecoration: "none", color:"black"}}>URing</a></h2>
+                            <p> All Rights Reserved</p>
                     </div>
-                    <div className='col-md-6 p-5'>
-                            <b>Connect With Us</b> <hr/>
-                            <div className='row'>
-                                <div className='col-6'>
-                                    <i className="fa fa-envelope-o fa-lg"></i> &nbsp; <a href="mailto:service@gmail.com">service@gmail.com</a><br/>
-                                    <i className="fa fa-phone"></i> &nbsp; +91 99999 00000
-                                </div>
-                                <div className='col-6'>
-                                    <div className="text-center">
+                    <div className='col-md-2 p-1'>
+                            <b><a href="/about-us" style={{textDecoration: "none", color:"black"}}>About Us</a></b>
+                    </div>
+                    <div className='col-md-3 p-1'>
+                            <b><a href="/terms" style={{textDecoration: "none", color:"black"}}>Terms & Conditions</a></b>
+                    </div>
+                    <div className='col-md-2 p-1'>
+                            <b><a href="/privacy" style={{textDecoration: "none", color:"black"}}>Privacy Policy</a></b>
+                    </div>
+                    <div className='col-md-2 p-1'>
+                            <b><a href="/contacts" style={{textDecoration: "none", color:"black"}}>Contact Us</a></b>      
+                    </div>
+                </div>
+            </div>
+            <div className="text-center">
                                         <a className="btn btn-social-icon btn-google" href="http://google.com/"><i className="fa fa-google"></i></a>
                                         <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
                                         <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
@@ -28,17 +37,28 @@ function Footer() {
                                         <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
                                         <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
                                     </div>
-                                </div>  
-                            </div>      
-                    </div>
+                                    <br></br>
+            <div className='row' style={{backgroundColor:"#080808"}}>
+                <div className='text-center text-white pt-3 pb-1'>
+                    <p> © URing 2021  /  All Rights Reserved </p>
                 </div>
             </div>
 
-            <div className='row' style={{backgroundColor:"#080808"}}>
-                <div className='text-center text-white pt-3 pb-1'>
-                    <p> © Services 2021  /  All Rights Reserved </p>
-                </div>
-            </div>
+
+
+
+
+
+
+
+
+            {/* <div class="Footer__basicRow1--1vBy2"><ul><li><a href="https://www.urbancompany.com/about" target="_blank">About Us</a></li><li><a href="https://www.urbancompany.com/terms" target="_blank">Terms &amp; Conditions</a></li><li><a href="https://www.urbancompany.com/privacy-policy" target="_blank">Privacy Policy</a></li><li><a href="https://www.urbancompany.com/anti-discrimination-policy" target="_blank">Anti Discrimination Policy</a></li><li><a href="https://www.urbancompany.com/blog" target="_blank">Blog</a></li><li><a href="https://www.urbancompany.com/reviews" target="_blank">Reviews</a></li><li><a href="https://www.urbancompany.com/near-me" target="_blank">Near Me</a></li><li><a href="https://careers.urbanclap.com/" target="_blank">Careers</a></li><li><a href="https://www.urbancompany.com/purchase-giftcards" target="_blank">Gift Cards</a></li><li><a href="https://www.urbancompany.com/contact-us" target="_blank">Contact Us</a></li></ul></div> */}
+
+
+
+
+
+            
         </div>  
 
     )
