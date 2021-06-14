@@ -9,7 +9,7 @@ function Top2(){
     <div class="topbox2" style={{width:"80%", background:"#080808", margin:"auto"}}>
     <Row>
       <Col md="2" xs="4">
-      <a href="./service/RO repair" class="toplink" href="#">
+      <a href="./service/RO repair" class="toplink" href="./service/RO repair">
       <img style={{width:"1.9em"}} class="topicon" src="https://cdn.pixabay.com/photo/2012/04/03/13/36/water-25169_960_720.png"></img>
         <p style={{color:"white"}}>RO repair</p></a>
       </Col>
