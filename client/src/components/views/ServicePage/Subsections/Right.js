@@ -33,8 +33,8 @@ useEffect(() => {
             </Col>
             <Col>
                 <h5 class="rightf">{Pro.name}</h5>
-                <span class="rightf">Mobile No. </span>{Pro.number}
-                {/* <p><span>Address</span>{Pro.address}</p> */}
+                <span class="rightf">Mobile No. </span>{Pro.contact}
+                <p><span>Address</span>{Pro.address}</p>
                 {/* <p><span>Rating: </span>4.9 <i className="fa fa-star"></i></p> */}
                 </Col>
                 </Row>
