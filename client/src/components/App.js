@@ -31,7 +31,7 @@ function App() {
           <Route exact path="/privacy" component={Auth(PrivacyPage, null)} />
           <Route exact path="/terms" component={Auth(TermsPage, null)} />
           <Route exact path="/service/:type" component={Auth(ServicePage, null)} />
-          <Route exact path="/admin" component={Auth(AdminPage, true)} />
+          <Route exact path="/addProvider" component={Auth(AdminPage, null)} />
         </Switch>
       </div>
       <Footer />
