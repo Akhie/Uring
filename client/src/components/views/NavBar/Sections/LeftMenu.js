@@ -9,7 +9,7 @@ function LeftMenu(props) {
     <Menu class="navcol" style={{background:"#080808", color:"white"}} mode={props.mode}>
     <Menu.Item key="mail">
 
-      <a style={{ color:"white", textDecoration:"none"}} href="/">Home</a>
+      <a style={{ color:"white", textDecoration:"none"}} href="/addProvider">Register Your Service</a>
 
     </Menu.Item>
     <SubMenu title={<span>Blogs</span>}>
