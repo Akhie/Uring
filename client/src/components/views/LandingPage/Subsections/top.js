@@ -31,12 +31,12 @@ return <div class="top" >
         <p style={{color:"white"}}>Carpenter</p></a>
       </Col>
       <Col md="2" xs="4">
-      <a class="toplink" href="./service/Electronics Repair">
+      <a class="toplink" href="./service/Electronics repair">
       <img style={{width:"2em"}} class="topicon" src="https://cdn.pixabay.com/photo/2012/05/02/20/18/screwdriver-46218_960_720.png"></img>
         <p style={{color:"white"}}>Electronics repair</p></a>
       </Col>
       <Col md="2" xs="4">
-      <a class="toplink" href="./service/Ac Repair">
+      <a class="toplink" href="./service/AC repair">
       <img  style={{width:"3.5em"}} class="topicon" src="https://cdn.pixabay.com/photo/2018/11/23/11/09/for-home-3833657_960_720.png"></img>
         <p style={{color:"white"}}>Ac repair</p></a>
       </Col>
