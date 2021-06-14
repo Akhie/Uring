@@ -8,7 +8,7 @@ import img3 from '../Images/3.jpeg';
 import img4 from '../Images/4.jpeg';
 import img5 from '../Images/5.jpeg';
 import img6 from '../Images/6.jpeg';
-
+import imgf from '../Images/first.jpg';
 
 export default function Bottom() {
     return (
@@ -23,7 +23,7 @@ export default function Bottom() {
 
                     <div className='col-md-4 p-4'>
                         <div class="card botcard text-white">
-                            <img src={img6} className="card-img imgsize" alt="..." />
+                            <img src={imgf} className="card-img imgsize" alt="..." />
                         </div>
                     </div>
                     <div className='col-md-4 p-4'>
