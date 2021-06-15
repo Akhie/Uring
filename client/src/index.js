@@ -12,7 +12,7 @@ import { BrowserRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
-
+import { Helmet } from 'react-helmet'
 import Reducer from './_reducers';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
@@ -20,7 +20,7 @@ import promiseMiddleware from 'redux-promise';
 import ReduxThunk from 'redux-thunk';
 
 const createStoreWithMiddleware = applyMiddleware(promiseMiddleware, ReduxThunk)(createStore);
-
+const TITLE = 'URing'
 ReactDOM.render(
     <Provider
         store={createStoreWithMiddleware(
@@ -29,7 +29,12 @@ ReactDOM.render(
             window.__REDUX_DEVTOOLS_EXTENSION__()
         )}
     >
+        <Helmet>
+            <title>{ TITLE }</title>
+        </Helmet>
+        
         <BrowserRouter>
+        
             <App />
         </BrowserRouter>
     </Provider>
