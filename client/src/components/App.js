@@ -34,7 +34,6 @@ function App() {
           <Route exact path="/terms" component={Auth(TermsPage, null)} />
           <Route exact path="/service/:type" component={Auth(ServicePage, null)} />
           <Route exact path="/addProvider" component={Auth(AdminPage, null)} />
-          {/* blog page still not created */}
           <Route exact path="/blogs" component={Auth(BlogPage, null)} />
         </Switch>
       </div>
