@@ -7,7 +7,7 @@ import mid3 from '../Images/Logo.png'
 function SubSec3(){
     return <div class="suba">
 
-<p class="explore">Our catch phrase and moto here probably of two lines.....</p>
+<p class="explore">Service At Your Door.....</p>
 <div class="m-5">
 <Row className="rowa" >
   <Col md="6" sm="6" xs="12" data-aos="zoom-in-right" >

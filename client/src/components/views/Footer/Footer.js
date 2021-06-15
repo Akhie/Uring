@@ -30,12 +30,12 @@ function Footer() {
                 </div>
             </div>
             <div className="text-center">
-                                        <a className="btn btn-social-icon btn-google" href="http://google.com/"><i className="fa fa-google"></i></a>
+                                        <a className="btn btn-social-icon btn-google" href="https://uring.herokuapp.com/"><i className="fa fa-google"></i></a>
                                         <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
-                                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
+                                        <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/URing-112324574415806"><i className="fa fa-facebook"></i></a>
                                         <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
                                         <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
+                                        <a className="btn btn-social-icon btn-google" href="mailto: team@uring.tech"><i className="fa fa-envelope"></i></a>
                                     </div>
                                     <br></br>
             <div className='row' style={{backgroundColor:"#080808"}}>

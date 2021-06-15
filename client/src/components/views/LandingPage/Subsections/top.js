@@ -9,8 +9,8 @@ function Top(){
 
 return <div class="top" >
  <Row>
-  <p class="explore">Our catch phrase and moto here probably of two lines</p>
-  <p class="exploresub">Our catch phrase and moto here probably of two lines</p>
+  <p class="explore" style={{fontSize: "5rem"}}>Home services, on demand</p>
+  <p class="exploresub" style={{fontSize: "2rem"}}>You Ring, We are here to help!</p>
   </Row>
   <Row>
     <div class="topbox topbox1" style={{width:"80%", background:"#080808", margin:"auto"}}>
