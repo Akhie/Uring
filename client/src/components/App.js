@@ -10,9 +10,11 @@ import AboutUsPage from "./views/Footer/Subsections/about-us.js";
 import PrivacyPage from "./views/Footer/Subsections/privacy.js";
 import TermsPage from "./views/Footer/Subsections/terms.js";
 import AdminPage from "./views/Admin/Admin.js";
+import BlogPage from './views/Admin/blog.js';
 import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer"
 import ServicePage from "./views/ServicePage/ServicePage"
+
 //null   Anyone Can go inside
 //true   only logged in user can go inside
 //false  logged in user can't go inside
@@ -32,6 +34,8 @@ function App() {
           <Route exact path="/terms" component={Auth(TermsPage, null)} />
           <Route exact path="/service/:type" component={Auth(ServicePage, null)} />
           <Route exact path="/addProvider" component={Auth(AdminPage, null)} />
+          {/* blog page still not created */}
+          <Route exact path="/blogs" component={Auth(BlogPage, null)} />
         </Switch>
       </div>
       <Footer />

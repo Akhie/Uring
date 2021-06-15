@@ -14,10 +14,10 @@ export default function Bottom() {
     return (
         <div style={{backgroundColor:"#080808"}}>
 
-            <div style={{marginBottom:"50px", paddingTop:"100px"}}>
+            {/* <div style={{marginBottom:"50px", paddingTop:"100px"}}>
                 <h2 className='text-center text-white'>Services Available</h2>
-            </div>
-            <div className='container mt-3'>
+            </div> */}
+            {/* <div className='container mt-3'>
 
                 <div className='row'>
 
@@ -59,8 +59,8 @@ export default function Bottom() {
 
                 </div>
 
-            </div>
-            <div style={{paddingBottom:"50px", paddingTop:"100px"}}>
+            </div> */}
+            <div style={{paddingBottom:"50px", paddingTop:"50px"}}>
                 <h2 className='text-center text-white'>Let us know what services you want</h2>
                 <div className='d-flex justify-content-center'>
                     <button className='contactbutton' onClick={()=> window.open("/contacts", "_blank")} ><span> Contact <Icon type="phone" /></span> </button>
